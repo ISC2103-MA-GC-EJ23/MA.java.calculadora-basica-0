@@ -1,0 +1,13 @@
+{
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"vscjava.vscode-java-pack",
+				"ms-azuretools.vscode-docker",
+				"analytic-signal.preview-pdf",
+				"MS-vsliveshare.vsliveshare"
+			]
+		}
+	}
+}
