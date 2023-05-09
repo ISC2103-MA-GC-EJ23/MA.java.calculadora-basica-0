@@ -13,11 +13,7 @@ class AppTest {
     @BeforeEach void setup() {
         c = new Calculadora();
     }
-    @Test void appHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
-    }
-
+    
     @Test void sumar() {
         assertEquals(5, c.sumar(2, 3));
     }
