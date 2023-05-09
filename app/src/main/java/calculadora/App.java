@@ -4,11 +4,12 @@
 package calculadora;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        Calculadora c = new Calculadora();
+        System.out.println("CALCULADORA ARITMETICA");
+        System.out.println("======================");
+
+        System.out.println("5+3="+c.sumar(5, 3));
     }
 }

@@ -1,7 +1,7 @@
 package calculadora;
 
 public class Calculadora {
-    public int sumar(int a, int b) {
-        return 0;
+    public double sumar(double a, double b) {
+        return a+b;
     }
 }
