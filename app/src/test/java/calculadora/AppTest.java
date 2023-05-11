@@ -17,4 +17,9 @@ class AppTest {
     @Test void sumar() {
         assertEquals(5, c.sumar(2, 3));
     }
+
+    @Test void multiplicar() {
+        assertEquals(6, c.multiplicar(2, 3));
+        assertEquals(20, c.multiplicar(5, 4));
+    }
 }
