@@ -27,4 +27,9 @@ class AppTest {
         assertEquals(2, c.restar(3, 1));
         assertEquals(3, c.restar(10, 7));
     }
+
+    @Test void dividir() {
+        assertEquals(12/4, c.dividir(12, 4));
+        assertEquals(0.5, c.dividir(1.0, 2.0));
+    }
 }
