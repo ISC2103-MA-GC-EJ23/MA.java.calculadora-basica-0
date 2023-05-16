@@ -22,4 +22,9 @@ class AppTest {
         assertEquals(6, c.multiplicar(2, 3));
         assertEquals(20, c.multiplicar(5, 4));
     }
+
+    @Test void restar() {
+        assertEquals(2, c.restar(3, 1));
+        assertEquals(3, c.restar(10, 7));
+    }
 }
