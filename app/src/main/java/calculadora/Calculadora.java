@@ -10,6 +10,6 @@ public class Calculadora {
     }
 
     public double restar(double a, double b) {
-        return 0;
+        return a-b;
     }
 }
