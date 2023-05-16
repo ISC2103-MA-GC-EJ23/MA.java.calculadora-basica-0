@@ -30,6 +30,6 @@ class AppTest {
 
     @Test void dividir() {
         assertEquals(12/4, c.dividir(12, 4));
-        assertEquals(0.5, c.dividir(1, 2));
+        assertEquals(0.5, c.dividir(1.0, 2.0));
     }
 }
