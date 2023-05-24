@@ -38,6 +38,15 @@ git push origin main
 ```
 ### Generando el archivo JAR
 
+Asegurese de tener incluido el siguiente código en el archivo build.gradle:
+```
+jar {
+  manifest {
+   attributes 'Main-Class': 'calculadora.App'
+  }
+}
+```
+Genere el archivo jar
 ```
 gradle jar
 ```
@@ -45,6 +54,11 @@ El archivo JAR se genera en el directorio:
 
 ```
 app/build/libs/app.jar
+```
+Puede ejecutar la aplicación en la línea de comandos con:
+
+```
+java -cp wsCalculadora.jar wsCalculadora.App
 ```
 # Trabajo en Equipo
 
